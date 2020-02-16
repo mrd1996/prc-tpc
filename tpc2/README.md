@@ -8,7 +8,6 @@ PREFIX : <http://www.semanticweb.org/miguel/ontologies/2020/1/musica#>
 ## 1 Nomes dos compositores (ordem alfabetica)
 
 ```sparql
-s
 SELECT ?nome WHERE { 
     ?id a :Obra;
          :compositor ?nome .
@@ -19,7 +18,6 @@ ORDER BY ?nome
 ## 2 Títulos das obras do tipo **"Marcha de Desfile"**
 
 ```sparql
-s
 SELECT ?titulo WHERE {u
     ?id a :Obra;
          :tipo "Marcha de Desfile";
