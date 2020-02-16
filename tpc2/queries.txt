@@ -1,0 +1,7 @@
+1 Nomes dos compositores (ordem alfabetica)
+
+
+
+2 Titulos das obras do tipo (marcha de desfile)
+3 Para cada Obra quantas partituras estao catalogadas
+4 Quais os titulos das obras com partitura para Bombo
