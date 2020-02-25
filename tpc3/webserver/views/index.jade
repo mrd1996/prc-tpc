@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  select.w3-select.w3-border(id="rep")
+    each r in repos
+        option.w3-bar-item.w3-button(value=r.id.value)= r.title.value
+  div.w3-row
+    div.w3-col.m6.l6
+      form(action="get")
+        textarea.w3-input.w3-border(id="sparql" type="text" rows="20")
+      button.w3-btn.w3-blue(onclick=`query()`) query 
+    div.w3-col.m6.l6(id="response")
+      table(id="result")
+        tr(id="header")
+        tr(id="repBody")
